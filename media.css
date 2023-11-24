@@ -1,0 +1,133 @@
+@media only screen and (max-width: 991px) {
+  .navigation_bar {
+    padding: 10px 50px;
+  }
+  .menu {
+    padding-left: 25px;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 280px;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 9999;
+    transition: 0.6s all;
+  }
+  .menu.active {
+    left: 0px;
+  }
+  .navigation_bar .menu ul {
+    display: block;
+  }
+  .navigation_bar .menu li {
+    padding: 15px 0;
+  }
+  .navigation_bar .menu a {
+    color: black;
+  }
+  .humberger {
+    display: block;
+  }
+  .hero{
+    padding: 40px 0;
+  }
+  .hero_main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero_left {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .hero_text h2 {
+    font-size: 35px;
+  }
+
+  .hero_text p {
+    font-size: 16px;
+  }
+  .image_part::before {
+    bottom: -35px;
+    right: -45px;
+  }
+  .service_sec{
+    border: none;
+  }
+  .service_main{
+    padding: 0;
+  }
+  .border_bottom{
+    border-bottom: 1px solid #fff;
+  }
+
+  .same_sec,.same_sec1{
+    margin-top: 40px;
+  }
+
+  .about_text_main{
+    padding-left: 0;
+    margin-top: 50px;
+  }
+  .about_text h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+
+  }
+  .about_text p{
+    font-size: 14px;
+    text-align: justify;
+  }
+  .owl-theme .owl-nav{
+    display: none;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation_bar .logo p {
+    font-size: 35px;
+  }
+  .slider_bg {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navigation_bar {
+    padding: 10px 20px;
+  }
+  .navigation_bar .logo p {
+    font-size: 30px;
+  }
+  .image_part::after,
+  .image_part::before,.about_image::after, .about_image::before  {
+    display: none;
+  }
+
+  .about_text_main{
+    margin-top: 20px;
+  }
+  .about_text h2{
+    font-size: 25px;
+  }
+
+  .slidet_title h3{
+    font-size: 25px;
+  }
+  .slidet_title p{
+    font-size: 14px;
+  }
+  
+}
+
+@media only screen and (max-width: 425px) {
+    .navigation_bar .logo p {
+        font-size: 25px;
+      }
+
+      .about_text h2{
+        font-size: 20px;
+      }
+}
